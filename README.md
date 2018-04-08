@@ -65,7 +65,7 @@ there might be circumstances where APIs will need to be changed.
 
 ## Usage
 
-See [godoc page](https://godoc.org/titpetric/binary). Generally, it can be something like:
+See [godoc page](https://godoc.org/github.com/titpetric/binary). Generally, it can be something like:
 
 ~~~
 	n, err := b.Unpack(strap, binary.LittleEndian,
