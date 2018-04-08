@@ -51,7 +51,7 @@ func Unpack(source []byte, endianness binary.ByteOrder, destinations ...interfac
 					return 0, err
 				}
 
-				if (Debug) {
+				if Debug {
 					fmt.Println(bitString(reading), fmt.Sprintf("read value (%x)", reading))
 				}
 
@@ -75,7 +75,7 @@ func Unpack(source []byte, endianness binary.ByteOrder, destinations ...interfac
 
 					bitOffset += bitSize
 					bitMaskString := bitString(bitMask << bitShift)
-					if (Debug) {
+					if Debug {
 						fmt.Println(bitMaskString, name, "bits", bitSize, "mask", strconv.FormatUint(uint64(bitMask), 2), "bitshift", bitShift)
 					}
 				}
