@@ -58,6 +58,11 @@ them. In the future, a more generic function might be available, where you would
 just a single struct with any number of nested structs, and it would linearelly decode
 the available data into the structs.
 
+## API
+
+API is subject to change. While reasonable efforts will be made to keep it as it is,
+there might be circumstances where APIs will need to be changed.
+
 ## Usage
 
 See [godoc page](https://godoc.org/titpetric/binary). Generally, it can be something like:
